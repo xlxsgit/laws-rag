@@ -24,3 +24,6 @@ dist/
 
 # uv
 .python-version
+
+# 忽略向量数据库
+data/processed/chroma_db/
