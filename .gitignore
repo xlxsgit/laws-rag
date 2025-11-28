@@ -4,6 +4,13 @@
 *.iml
 *.ipr
 
+# Virtualenv
+.venv
+
+# env
+.env
+
+
 # Python
 __pycache__/
 *.py[cod]
@@ -14,3 +21,6 @@ env/
 build/
 develop-eggs/
 dist/
+
+# uv
+.python-version
