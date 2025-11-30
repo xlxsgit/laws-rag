@@ -4,7 +4,6 @@ from config import MODELSCOPE_API_KEY, embedding_DIR, reranker_DIR, VECTOR_DB_DI
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer, CrossEncoder
 import chromadb
-import warnings
 
 
 class LawRAGSystem:
